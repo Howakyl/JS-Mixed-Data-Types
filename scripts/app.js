@@ -43,12 +43,12 @@ const student2 = {
 
 // * A list of student names from our class, each with a location and each with a list of favorite tv shows.
 //I would use multiple objects, with strings, and arrays for the shows.
-const student1 = {
+const student3 = {
     name: 'Bob',
     location: 'Seattle',
     favoriteShows: ['Friends', 'The Office']
 }
-const student2 = {
+const student4 = {
     name: 'Tim',
     location: 'Seattle',
     favoriteShows: ['Mythbusters', 'Top Gear']
@@ -56,3 +56,19 @@ const student2 = {
 
 /////////////////////////////////////////////////////
 
+//2. Take it easy
+
+//1)
+const rainbowColors = ['red', 'orange', 'yellow' , 'green', 'blue' , 'indigo', 'violet'];
+//2) 
+console.log(rainbowColors[4]);
+//3)
+const me = {
+    name: 'Kyle',
+    favoriteFood: 'Stroganoff',
+    hobby: 'video games',
+    currentTown: 'Issaquah',
+    favoriteDataType: 'Objects!'
+};
+//4)
+console.log(me.hobby);
