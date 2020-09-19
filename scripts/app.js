@@ -176,10 +176,19 @@ const bondFilms = [
 ];
 
 //5.
-
 const bondArray = [];
 
 for (let i = 0; i < bondFilms.length; i++) {
   bondArray.push(bondFilms[i].title);
 };
 console.log(bondArray);
+
+//6.
+const oddBonds = [];
+
+for (let i = 0; i < bondFilms.length; i++) {
+  if (bondFilms[i].year % 2 !== 0) {
+    oddBonds.push(bondFilms[i].title);
+  }
+};
+console.log(oddBonds);
