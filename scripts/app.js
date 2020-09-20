@@ -192,3 +192,14 @@ for (let i = 0; i < bondFilms.length; i++) {
   }
 };
 console.log(oddBonds);
+
+//7.
+
+let grossSum = 0;
+for (let i = 0; i < bondFilms.length; i++) {
+  let replaceArray = bondFilms[i].gross.replace(/[^\d]/g ,'');
+  replaceArray = parseInt(replaceArray);
+  grossSum += replaceArray;
+  
+}
+console.log(grossSum);
